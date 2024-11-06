@@ -1,0 +1,76 @@
+.quality-wrapper {
+  background-color: white;
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.quality-container {
+  margin-top: 40px;
+}
+.quality {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.hr-line {
+  display: flex;
+  border: 1px solid rgb(46, 152, 192);
+  width: 100%;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.q-description1 {
+  color: rgb(46, 152, 192);
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  width: 70%;
+  text-align: center;
+}
+
+.q-description2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 45%;
+  font-weight: 200;
+}
+
+.q-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: rgb(46, 152, 192);
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.q-button2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  color: rgb(46, 152, 192);
+  border: none;
+  background-color: white;
+  margin-left: 5px;
+  margin-top: 2px;
+  cursor: pointer;
+  transition: all 300ms ease-in;
+}
+
+.quality-image {
+  width: 90%;
+}
+
+@media (max-width: 960px) {
+  .q-description1 {
+    font-size: 2rem;
+    line-height: 1.8em;
+  }
+}

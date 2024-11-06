@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Our Service 1",
+    "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "../../public/AdobeStock_61169391.png"
+  },
+  {
+    "name": "Our Service 2",
+    "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "../../public/AdobeStock_223985280.jpeg"
+  },
+  {
+    "name": "Our Service 3",
+    "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "../../public/AdobeStock_254155028.jpeg"
+  },
+  {
+    "name": "Our Service 4",
+    "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "../../public/AdobeStock_289556278.jpeg"
+  },
+  {
+    "name": "Our Service 5",
+    "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "../../public/AdobeStock_196774827.jpeg"
+  },
+  {
+    "name": "Our Service 6",
+    "detail": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image": "../../public/AdobeStock_266136824.jpeg"
+  }
+]

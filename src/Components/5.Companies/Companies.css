@@ -1,0 +1,60 @@
+.companies-wrapper {
+  background-color: white;
+}
+
+.companies-container {
+  justify-content: space-around;
+  gap: 3rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.companies-container > img {
+  width: 9rem;
+}
+
+.Our-partners {
+  display: flex;
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: rgb(46, 152, 192);
+}
+.hr3 {
+  border: 0.5px solid rgb(46, 152, 192);
+  width: 100%;
+  margin-top: 3%;
+}
+.c-partnership {
+  font-size: 2.5rem;
+  display: flex;
+  justify-items: flex-start;
+  text-align: start;
+  color: rgb(46, 152, 192);
+  width: 65%;
+}
+
+.card-companies {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, blue 217.91%);
+  gap: 0.1rem;
+  padding: 0.5rem;
+  border-radius: 100%;
+  max-width: 250px;
+  margin: auto;
+  transition: all 300ms ease-in-out;
+}
+.card-companies img {
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 10px;
+}
+
+@media (max-width: 960px) {
+  .c-partnership {
+    width: 50%;
+    font-size: 1.5em;
+    line-height: 1.8em;
+  }
+
+  .companies-container {
+    gap: 3rem;
+  }
+}

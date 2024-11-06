@@ -1,0 +1,129 @@
+.contact-wrapper {
+  background: linear-gradient(180deg, #0c6478, #8bafd6, #a6a6a6);
+  background-size: 180%;
+  animation: gradient-animation 18s ease infinite;
+  gap: 1rem;
+  border-style: none;
+}
+
+.contact-container {
+  padding-bottom: 5rem;
+}
+
+/* .contact-header {
+  background: linear-gradient(180deg, #0c6478, #8bafd6, #a6a6a6);
+  background-size: 180%;
+  animation: gradient-animation 18s ease infinite;
+  border: #0c6478 2px solid;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 30px;
+  border-style: none;
+} */
+
+.contactTitle {
+  font-size: 4rem;
+}
+.contact-form {
+  display: grid;
+  gap: 30px;
+}
+
+textarea,
+input:not([type="submit"]) {
+  height: 50px;
+  padding-left: 16px;
+  width: 180px;
+}
+
+textarea {
+  padding-top: 16px;
+  resize: none;
+  height: 250px;
+}
+
+input,
+textarea {
+  border-radius: 20px;
+  border: #888 1px solid;
+  box-sizing: border-box;
+  justify-self: center;
+  background-color: var(--background-color);
+  color: var(--form-text-color);
+}
+
+::placeholder {
+  color: var(--form-text-color);
+}
+
+input[type="submit"] {
+  background-color: transparent;
+  color: var(--btn-text-color);
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  box-shadow: 0 4x 4x rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+  margin: auto;
+}
+input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
+input[type="submit"]:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* right corner */
+
+.c-right-container {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 20px;
+  margin-top: -55%;
+  margin-left: 55%;
+}
+
+.contact-image {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  border-radius: 20px;
+  width: 600px;
+}
+
+@media (width >=800px) {
+  textarea,
+  input:not([type="submit"]) {
+    width: 500px;
+    font-size: 20px;
+  }
+  form {
+    gap: 40px;
+  }
+}
+
+@media (width >=1400px) {
+  textarea,
+  input:not([type="submit"]) {
+    width: 500px;
+    font-size: 20px;
+  }
+}
+
+.name {
+  width: 300px;
+  height: 45px;
+  border-radius: 87px;
+  border-style: none;
+  padding: 1rem;
+  background-color: #d9d9d9;
+}
+
+@media (max-width: 960px) {
+  .contact-image {
+    margin-top: 20rem;
+  }
+}

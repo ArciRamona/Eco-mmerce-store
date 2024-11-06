@@ -1,0 +1,132 @@
+.services-wrapper {
+  background: linear-gradient(
+    180deg,
+    rgb(1, 64, 87),
+    rgb(46, 152, 192),
+    #a6a6a6,
+    white
+  );
+  background-size: 180%;
+  animation: gradient-animation 18s ease infinite;
+  background-size: contain;
+}
+/* left side */
+.our-services {
+  font-weight: 200;
+  color: white;
+}
+.hr-line2 {
+  border: 0.5px solid white;
+  width: 100%;
+  margin-top: 3%;
+}
+.services-title {
+  display: flex;
+  justify-content: flex-start;
+  width: 34%;
+  font-size: 1.5em;
+  line-height: 1.8em;
+  color: white;
+  margin-top: 2%;
+}
+
+/* right side */
+.service-right-container {
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: auto;
+  color: whitesmoke;
+}
+
+.services-description {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+  font-weight: 200;
+  font-size: large;
+  margin-right: -4%;
+  margin-top: -26%;
+  line-height: 1.5em;
+}
+
+/* .first {
+  position: relative;
+  font-size: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.firstImage {
+  position: absolute;
+} */
+.service-containerSwiper {
+  overflow: hidden;
+  position: relative;
+}
+
+.RS-head {
+  margin-bottom: 2rem;
+}
+
+.service-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgb(110, 110, 113) 217.91%
+  );
+  gap: 0.1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  max-width: max-content;
+  margin: auto;
+  transition: all 300ms ease-in-out;
+}
+
+.service-card > img {
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 10px;
+}
+.s-card-name {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.service-card > :nth-child(2) {
+  width: 15rem;
+}
+
+.service-card > :nth-child(3) {
+  font-size: 0.7rem;
+  width: 15rem;
+}
+
+.service-card:hover {
+  scale: 1.025;
+  cursor: pointer;
+  background-color: rgb(46, 152, 192);
+
+  box-shadow: 0px 72px 49px -51px rgba(136, 160, rgb(44, 66, 74), 0.21);
+}
+
+.swiper-horizontal {
+  overflow: visible;
+}
+
+.service-button {
+  position: relative;
+  gap: 0.5rem;
+  top: -22rem;
+  left: 51%;
+}
+
+/* media queries */
+@media (max-width: 960px) {
+  .services-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+    margin-right: 35%;
+  }
+}
