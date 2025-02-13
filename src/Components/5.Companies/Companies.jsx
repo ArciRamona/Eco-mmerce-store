@@ -28,31 +28,19 @@ const Companies = () => {
             className="paddings innerwidth flexCenter companies-container"
           >
             <div className="card-companies">
-              <img
-                src="../../../public/Green Simple Medical Logo/1.png"
-                alt=""
-              />{" "}
+              <img src="/Green Simple Medical Logo/1.png" alt="" />{" "}
             </div>
             <div className="card-companies">
               {" "}
-              <img
-                src="../../../public/Green Simple Medical Logo/2.png"
-                alt=""
-              />{" "}
+              <img src="/Green Simple Medical Logo/2.png" alt="" />{" "}
             </div>
             <div className="card-companies">
               {" "}
-              <img
-                src="../../../public/Green Simple Medical Logo/3.png"
-                alt=""
-              />{" "}
+              <img src="/Green Simple Medical Logo/3.png" alt="" />{" "}
             </div>
             <div className="card-companies">
               {" "}
-              <img
-                src="../../../public/Green Simple Medical Logo/4.png"
-                alt=""
-              />
+              <img src="/Green Simple Medical Logo/4.png" alt="" />
             </div>
           </motion.div>
         </div>

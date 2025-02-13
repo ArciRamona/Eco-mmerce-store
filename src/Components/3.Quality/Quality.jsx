@@ -39,7 +39,7 @@ const Quality = () => {
         <div className=" flexCenter ">
           <img
             className="quality-image"
-            src="../../../public/AdobeStock_259322854.jpeg"
+            src="/AdobeStock_259322854.jpeg"
             alt=""
           />
         </div>

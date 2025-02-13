@@ -3,8 +3,8 @@ import React from "react";
 import { useState } from "react";
 import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
-// eslint-disable-next-line no-unused-vars
-import { getMenuStyles } from "../../utils/common";
+
+// import { getMenuStyles } from "../../utils/common";
 import OutsideClickHandler from "react-outside-click-handler";
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
       <div className="flexCenter paddings innerWidth header-container">
         <img
           className="PS-logo"
-          src="../../../public/Green Simple Medical Logo.png"
+          src="/Green Simple Medical Logo.png"
           alt="logo"
           width={150}
         />
