@@ -20,9 +20,9 @@ const Header = () => {
       <div className="flexCenter paddings innerWidth header-container">
         <img
           className="PS-logo"
-          src="../../../public/PSLogo.jpg"
+          src="../../../public/Green Simple Medical Logo.png"
           alt="logo"
-          width={200}
+          width={150}
         />
         <OutsideClickHandler
           OutsideClickHandler={() => {

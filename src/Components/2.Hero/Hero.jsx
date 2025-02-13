@@ -38,8 +38,8 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 2, type: "spring" }}
             >
-              Prevention <br />
-              Shield
+              Medical <br />
+              Supplies
             </motion.h1>
             <div className="flexColStart hero-description">
               <br />
