@@ -9,10 +9,10 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const [currentAngle, setCurrentAngle] = useState(0);
   const slides = [
-    "../../../public/Download free image of Sick female patient with an oxygen mask by McKinsey  about oxygen mask, oxygen, asthma, person photo, and adult 2318696.jpeg",
-    "../../../public/Premium Photo _ Front view doctor holding stethoscope.jpeg",
-    "../../../public/Premium Photo _ Medical equipment.jpeg",
-    "../../../public/Patient Receiving Oxygen Mask Stock Photo - Image of administering, ailment_ 12011092.jpeg",
+    "/Download free image of Sick female patient with an oxygen mask by McKinsey  about oxygen mask, oxygen, asthma, person photo, and adult 2318696.jpeg",
+    "/Premium Photo _ Front view doctor holding stethoscope.jpeg",
+    "/Premium Photo _ Medical equipment.jpeg",
+    "/Patient Receiving Oxygen Mask Stock Photo - Image of administering, ailment_ 12011092.jpeg",
   ];
 
   const totalSlides = slides.length;
