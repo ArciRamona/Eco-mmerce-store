@@ -173,8 +173,8 @@ Built with ❤️ by Gladys Ando Doroin
 “Tech meets creativity — for smarter online shopping.”
 
     •	✉️ Email: gbav.business@gmail.com
-    •	🌐 Portfolio: Gladys Doroin Portfolio
-    •	💼 LinkedIn: Gladys Ando
+    •	🌐 Portfolio: gladys-doroin-portfolio.vercel.app
+    •	💼 LinkedIn: www.linkedin.com/in/gladys-ando-b73257251
 
 ⸻
 
@@ -187,6 +187,7 @@ Would you like me next to also generate:
 • 🔖 best project tags/topics (React, Node, MongoDB, Ecommerce, Fullstack)
 for your GitHub repository page? (Highly recommended before publishing!) 🚀
 Just say “Yes, give me repo description!” 📦✨
+
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
